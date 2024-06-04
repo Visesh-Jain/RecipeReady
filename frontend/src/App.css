@@ -1,0 +1,12 @@
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}

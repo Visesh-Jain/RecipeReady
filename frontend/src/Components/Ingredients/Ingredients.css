@@ -1,0 +1,130 @@
+.ingredient-input {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.selected-ingredients-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fafafa;
+  margin: 20px auto; /* Center the container horizontally */
+}
+
+.selected-ingredients-container h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+.selected-ingredients-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 2 columns in a row */
+  gap: 10px;
+}
+
+.selected-ingredient-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px; /* Reduced padding */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.selected-ingredient-item:hover {
+  background-color: #f1f1f1;
+}
+
+.ingredient-name {
+  font-size: 16px; /* Reduced font size */
+  color: #555;
+}
+
+.remove-button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+  background-color: #ff4c4c;
+}
+
+.remove-button:focus {
+  outline: none;
+}
+
+.log-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.log-button:disabled {
+  background-color: #a5d6a7;
+  cursor: not-allowed;
+}
+
+.log-button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.log-button:focus {
+  outline: none;
+}
+
+.ingredient-display-container {
+  margin-top: 20px;
+}
+
+.ingredient-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredient-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.ingredient-item:hover {
+  background-color: #f1f1f1;
+}
+
+.ingredient-name {
+  font-size: 16px;
+  color: #555;
+}
