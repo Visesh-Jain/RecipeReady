@@ -1,6 +1,6 @@
 import React from "react";
 import IngredientInput from "./Components/Ingredients/IngredientInput";
-import "./App.css"; // Import your CSS file for styling
+import "./App.css";
 
 const App = () => {
   return (
